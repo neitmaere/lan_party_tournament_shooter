@@ -205,17 +205,17 @@ sap.ui.define([ "sap/ui/core/mvc/Controller", "sap/m/MessageBox" ], function(Con
     },
 
     _refreshAllModels : function() {
-      appController.getView().getModel("GamerPoints").loadData("../../../../php/GamerPoints.php");
-      appController.getView().getModel("Shooter").loadData("../../../../php/Shooter.php");
-      appController.getView().getModel("Sport").loadData("../../../../php/Sport.php");
-      appController.getView().getModel("Strategy").loadData("../../../../php/Strategy.php");
-      appController.getView().getModel("Racing1").loadData("../../../../php/Racing.php?round=1");
-      appController.getView().getModel("Racing2").loadData("../../../../php/Racing.php?round=2");
-      appController.getView().getModel("Racing3").loadData("../../../../php/Racing.php?round=3");
-      appController.getView().getModel("Racing4").loadData("../../../../php/Racing.php?round=4");
-      appController.getView().getModel("Survival1").loadData("../../../../php/Survival.php?round=1");
-      appController.getView().getModel("Survival2").loadData("../../../../php/Survival.php?round=2");
-      appController.getView().getModel("Survival3").loadData("../../../../php/Survival.php?round=3");
+      appController.getView().getModel("GamerPoints").loadData("../../nlpt_php/GamerPoints.php");
+      appController.getView().getModel("Shooter").loadData("../../nlpt_php/Shooter.php");
+      appController.getView().getModel("Sport").loadData("../../nlpt_php/Sport.php");
+      appController.getView().getModel("Strategy").loadData("../../nlpt_php/Strategy.php");
+      appController.getView().getModel("Racing1").loadData("../../nlpt_php/Racing.php?round=1");
+      appController.getView().getModel("Racing2").loadData("../../nlpt_php/Racing.php?round=2");
+      appController.getView().getModel("Racing3").loadData("../../nlpt_php/Racing.php?round=3");
+      appController.getView().getModel("Racing4").loadData("../../nlpt_php/Racing.php?round=4");
+      appController.getView().getModel("Survival1").loadData("../../nlpt_php/Survival.php?round=1");
+      appController.getView().getModel("Survival2").loadData("../../nlpt_php/Survival.php?round=2");
+      appController.getView().getModel("Survival3").loadData("../../nlpt_php/Survival.php?round=3");
     }
 
   });
