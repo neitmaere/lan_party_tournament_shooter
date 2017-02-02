@@ -1,0 +1,26 @@
+<mvc:View controllerName="lan.party.tournament.controller.App"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form"
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<l:VerticalLayout id="containerLayout" width="100%">
+						<l:BlockLayout id="BlockLayout" background="Light">
+							<l:BlockLayoutRow id="winnerRow" scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="finalRow" scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="thirdPlaceRow" scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="semiFinalRow" scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="quarterFinalRow"	scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="loseRow" scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="loseFinalRow" scrollable="{device>/support/touch}" />
+							<l:BlockLayoutRow id="fifthPlaceRow" scrollable="{device>/support/touch}" />
+						</l:BlockLayout>
+					</l:VerticalLayout>
+
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

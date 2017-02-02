@@ -1,0 +1,31 @@
+/* Enter your custom styles here */
+.sapUiBlockCellContent {
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+    box-sizing: border-box;
+	background-color: black;
+}
+
+.sapUiBlockCellTitle {
+    color: orange;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+}
+
+.sapUiVlt {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    background-color: black;
+}
+
+.winner{
+	background-color: lime;
+}
+
+.loser{
+	background-color: red;
+}
